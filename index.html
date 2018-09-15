@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Tetris</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="jquery-2.2.1.min.js"></script>
+        <script src="tetris.js"></script>
+    </head>
+    <body>
+        <h1>Tetris By Truski</h1>
+        <div id="field"></div>
+        <div id="nextPiece"></div>
+        <div id="rules">
+            <h3>How to Play</h3>
+            <ul>
+                <li>Arrow Keys: Move Piece</li>
+                <li>Z: Rotate Counterclockwise</li>
+                <li>X: Rotate Clockwise</li>
+                <li>Shift: Store/Swap Piece</li>
+            </ul>
+        </div>
+        <p id="score">Score: 0</p>
+        <p id="message">Game Over</p>
+        <script>
+        startGame();
+        </script>
+    </body>
+</html>
